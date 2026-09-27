@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Code & Draw</title>
+  <style>
+    body { font-family: Arial, sans-serif; margin: 0; background: #f9f9f9; color: #333; }
+    header { background: #222; color: #fff; padding: 2em; text-align: center; }
+    nav { background: #444; padding: 1em; text-align: center; }
+    nav a { color: #fff; margin: 0 1em; text-decoration: none; font-weight: bold; }
+    nav a:hover { color: #1e90ff; }
+    .container { display: flex; justify-content: center; flex-wrap: wrap; gap: 2em; padding: 3em; }
+    .box { background: #fff; border-radius: 8px; box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+           width: 220px; height: 160px; display: flex; align-items: center; justify-content: center;
+           cursor: pointer; transition: transform 0.3s; text-decoration: none; color: #333; font-size: 1.1em; }
+    .box:hover { transform: scale(1.05); background: #e6f0ff; }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Welcome to Code & Draw</h1>
+    <p>Creative solutions in design, websites, and games</p>
+  </header>
+
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="page1.html">Game Creation</a>
+    <a href="page2.html">Poster Design</a>
+    <a href="page3.html">Website Making</a>
+    <a href="page4.html">Contact</a>
+  </nav>
+
+  <div class="container">
+    <a href="page1.html" class="box">Game Creation</a>
+    <a href="page2.html" class="box">Poster Design</a>
+    <a href="page3.html" class="box">Website Making</a>
+    <a href="page4.html" class="box">Contact</a>
+  </div>
+</body>
+</html>
