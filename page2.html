@@ -2,24 +2,44 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Poster making & Designing posters</title>
+  <title>Code & Draw</title>
   <style>
-    body { font-family: Arial, sans-serif; margin: 0; background: #fff; color: #333; }
-    header { background: #333; color: #fff; padding: 2em; text-align: center; }
-    section { padding: 2em; max-width: 800px; margin: auto; }
-    a { color: #1e90ff; text-decoration: none; }
+    body { font-family: 'Poppins', Arial, sans-serif; margin:0; background:linear-gradient(135deg,#1e90ff,#ff7f50); color:#333; }
+    header { background:rgba(0,0,0,0.85); color:#fff; padding:2em; text-align:center; }
+    header img { height:80px; margin-bottom:10px; }
+    nav { background:#111; padding:1em; text-align:center; }
+    nav a { color:#fff; margin:0 1em; text-decoration:none; font-weight:bold; transition:color 0.3s; }
+    nav a:hover { color:#ff7f50; }
+    .container { display:flex; justify-content:center; flex-wrap:wrap; gap:2em; padding:3em; }
+    .box { background:#fff; border-radius:10px; box-shadow:0 6px 15px rgba(0,0,0,0.2); width:240px; height:160px; display:flex; align-items:center; justify-content:center; cursor:pointer; transition:transform 0.3s, background 0.3s; text-decoration:none; color:#333; font-size:1.1em; }
+    .box:hover { transform:scale(1.05); background:#ffefd5; }
+    footer { background:#222; color:#fff; text-align:center; padding:1em; font-size:0.9em; position:fixed; bottom:0; left:0; width:100%; }
   </style>
 </head>
 <body>
   <header>
-    <h1>Poster creation and Designing posters</h1>
-    <p>The posters can be printed and mailed to you across south India for free.</p>
+    <img src="logo.png" alt="Code & Draw Logo">
+    <h1>Poster Design</h1>
+    <p>Posters can be printed and mailed across South India for free.</p>
   </header>
 
-  <section>
-    <h2>Details</h2>
-    <p>We bring ideas to life through bold, eye‑catching posters and creative designs that make a lasting impact. Whether it’s for business promotions, events, or personal projects, our designs are crafted to grab attention, tell your story, and leave an unforgettable impression. With a blend of creativity and precision, we turn your vision into visuals that truly stand out.</p>
-    <p><a href="index.html">← Back to Main Page</a></p>
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="page1.html">Game Creation</a>
+    <a href="page2.html">Poster Design</a>
+    <a href="page3.html">Website Making</a>
+    <a href="page4.html">Contact</a>
+  </nav>
+
+
+  <section style="padding:2em; max-width:800px; margin:auto; background:#fff; border-radius:10px; box-shadow:0 6px 15px rgba(0,0,0,0.2);">
+    <h2 style="color:#1e90ff;">Details</h2>
+    <p>We bring ideas to life through bold, eye‑catching posters and creative designs that make a lasting impact. Whether it’s for business promotions, events, or personal projects, our designs are crafted to grab attention, tell your story, and leave an unforgettable impression.</p>
+    <a href="index.html" style="color:#1e90ff; font-weight:bold; text-decoration:none;">← Back to Home Page</a>
   </section>
+
+  <footer>
+    <p>© 2026 Code & Draw | Designed by Abdulla</p>
+  </footer>
 </body>
 </html>
